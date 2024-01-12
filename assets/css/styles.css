@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html{
+    background: #000;
+    
+}
+
+.banner{
+    background-image: url(/assets/images/banner.png);
+    background-color: rgba(51, 168, 219, 0.12);
+   
+    height: 37.8125rem;
+    flex-shrink: 0; 
+}
+.banner-content{
+    margin-right: 29.05rem;/*Direita*/
+    margin-left: 29.05rem;/*Esquerda*/
+    margin-top: 3.5rem;/*Topo*/
+    margin-bottom: 9.75rem;/*a baixo*/
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.logo{
+    margin-left: 8.19rem;
+    margin-right: 8.19rem;
+    margin-top: 5.19rem;
+    margin-bottom: 2.69rem;
+
+    width: 15.5rem;
+    height: 13.375rem;
+    flex-shrink: 0;
+}
+h1{
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+main{
+    background: #000;
+}
+#course-content{
+    margin-right: 20.25rem;
+    margin-left: 20.25rem;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 7.38rem;
+    
+}
+#course-content > p{
+    width: 49.5rem;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#transform-world{
+  
+    background-image:  url(/assets/images/woman-code.png);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    z-index: -1;
+   
+    flex-shrink: 0;
+}
+#transform-world{
+    
+    
+}
+#professional-challenges{
+   
+    width: 89.9375rem;
+    height: 60rem;
+    
+}
+#course-content > h2{
+    margin-top: 7.38rem;
+
+    height: 2;
+    width: 29rem;
+    
+    color: #33A8DB;
+
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38rem;
+}
+p{
+    width: 31.875rem;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+button{
+    display: flex;
+    width: 20.375rem;
+    height: 3rem;
+    padding: 1.1875rem 5.6875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1.9375rem;
+    border: 2px solid #3BA1CD;
+    background-color: rgba(51, 168, 219, 0.12);
+
+    color: #31A8DD;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 0.8rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.21rem;
+  
+}
+#professional-challenges > h2{
+   
+    color: antiquewhite;
+}
+#professional-challenges > h2{
+    margin-top: 7rem;
+    margin-bottom: 2rem;
+    margin-left: 21.96rem;
+    margin-right: 21.96rem;
+    height: 4rem;
+    width: 46rem;
+    color: #33A8DB;
+    
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.38rem;
+}
+
+
+#professional-challenges > img {
+    margin-left: 24.38rem;
+    margin-right: 24.37rem;
+}
+#professional-challenges > p{
+    margin-top: 2.5rem;
+    width: 49.5rem;
+    margin-left: 20.25rem;
+    margin-right: 20.25rem;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+#transform-world > p{
+    
+    margin-right: 62.31rem;
+    width: 15.25rem;
+    height: 8.8125rem;
+    color: #FFF;
+
+    text-shadow: 3px 2px 0px #33A8DB;
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.module{
+    display: flex;
+    width: 33.4375rem;
+    padding: 1rem 7.9375rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    border-radius: 3.5625rem;
+    border: 1px solid #33A8DB;
+
+    background: #252525;
+
+    box-shadow: -2px 6px 4px 0px rgba(0, 0, 0, 0.40) inset;
+    margin-bottom: 1.5rem;
+}
+.module > p{
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+span{
+    color: #33A8DB;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.dio-logo{
+    margin-left: 35.31rem;
+    width: 19.375rem;
+    height: 2.75rem;
+    flex-shrink: 0;
+}
+footer > p{
+    margin-left: 32.94rem;
+    margin-right: 36.88;
+    color: #FFF;
+
+    text-align: center;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
